@@ -14,6 +14,7 @@ KEYWORDS="amd64"
 
 #dev-qt/qtxmlpatterns:4
 RDEPEND="
+	dev-libs/libusb-compat
 	dev-qt/qtcore:4
 	dev-qt/qtgui:4
 	"
