@@ -6,7 +6,7 @@ EAPI=5
 
 DESCRIPTION="Phone Flash Tool"
 HOMEPAGE="https://mcg-depot.intel.com/artifactory/psi-tools/phone-flash-tool/releases"
-SRC_URI="https://mcg-depot.intel.com/artifactory/psi-tools/phone-flash-tool/releases/${PV}/${PN}_${PV}_linux_x86_64.deb"
+SRC_URI="https://mcg-depot.intel.com/artifactory/psi-tools/phone-flash-tool/releases/${PV}/phoneflashtoollite_${PV}_linux_x86_64.deb"
 
 LICENSE="GPL"
 SLOT="0"
@@ -14,6 +14,7 @@ KEYWORDS="amd64"
 
 #dev-qt/qtxmlpatterns:4
 RDEPEND="
+	dev-libs/libusb-compat
 	dev-qt/qtcore:4
 	dev-qt/qtgui:4
 	"
