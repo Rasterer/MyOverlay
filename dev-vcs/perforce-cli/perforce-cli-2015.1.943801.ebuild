@@ -17,7 +17,7 @@ SRC_URI="x86? ( http://cdist2.perforce.com/perforce/r${SHORTREL}/bin.linux26x86/
 
 LICENSE="perforce"
 SLOT="0"
-KEYWORDS="-* ~x86 ~amd64"
+KEYWORDS="x86 amd64"
 IUSE=""
 RESTRICT="mirror strip"
 
